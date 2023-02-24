@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(48, 48, 48); 
+}
+
+.inside img {
+    display: flex;
+   
+    padding-top: 20px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+span {
+    
+    color: #f5c945;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.text_fast {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.fast_block {
+    background: rgb(48, 48, 48); 
+}
+.social_block {
+    background: rgb(48, 48, 48); 
+    padding-bottom: 10px;
+}
+.social_text {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+.social {
+    
+    display: flex;
+    justify-content: center;
+}
+.social img {
+    max-width: 60px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   
+}
+video {
+
+   display: flex;
+   justify-content: right;
+}
+body {
+    background: #f7f7f7;
+}
+.header {
+    background: rgb(48, 48, 48); 
+}
+.header {
+    /* text-align: center;
+    align-items: center; */
+    
+    background: rgb(48, 48, 48); 
+}
+.text_bar {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+   
+}
+.text_bar_main {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.consult img {
+    margin: 0 auto;
+    
+    
+    max-width: 500px;
+    border-radius: 16px;
+}
+.consult_block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.second_block {
+    background:#e5dfed;
+    padding-top: 40px;
+    
+}
+.btn {
+    /* display: flex;
+    justify-content: right; */
+    padding-top: 43px;
+    padding-bottom: 30px;
+}
+.col a {
+    vertical-align: center;
+    color: white;
+border-radius: 16px;
+background-color: #f5c945;
+padding: 8px 40px;
+text-decoration: none;
+font-size: 1.6rem;
+}
+.col a .btn1 {
+    vertical-align: center;
+    color: white;
+border-radius: 16px;
+background-color: #f5c945;
+padding: 8px 40px;
+text-decoration: none;
+font-size: 1.6rem;
+display: flex;
+justify-content: center;
+
+}
+.btn1 {
+    display: flex;
+justify-content: center;
+}
+.btn_second {
+    padding-bottom: 20px;
+}
+.logo img {
+    
+    width: 200px;
+    padding: 20px;
+}
+.main {
+    padding-top: 40px;
+}
+.cons_text {
+    
+
+    padding-top: 100px;
+    font-size: 1.4rem;
+}
+
+.promo_text {
+    padding-top: 100px;
+    
+    font-size: 1.4rem; 
+}
+.footer {
+    background: rgb(48, 48, 48); 
+    
+}
+.footer_text {
+   margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+.footer_text a  {
+    
+    color: white;
+    text-decoration: none;
+}
+.footer_text h3 {
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 14px;
+
+}
+.copy {
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer_text a {
+    color: rgb(163, 163, 163);
+}
+/* .btn_second {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+
+.second_video video {
+width: 600px;
+}
+
+
+img {
+    max-width: 600px;
+}
+
+input {
+    border-radius: 16px;
+    width: 400px;
+    
+    font-size: 1.6rem;
+    padding: 5px 20px;
+border: 2px solid #242424;
+}
+.form_bar button {
+   
+    vertical-align: center;
+    color: white;
+border-radius: 16px;
+background-color: #f5c945;
+padding: 5px 30px;
+text-decoration: none;
+font-size: 1.6rem;
+border: 2px solid #f5c945;
+}
+.form_bar {
+    padding-bottom: 40px;
+padding-top: 30px;
+}
+
+.app_block img {
+  cursor: pointer;
+    margin-top: 20px;
+   margin-bottom: 40px;
+  width: 200px;
+  border-radius: 16px;
+}
+.app_block {
+    
+    align-items: center;
+    background: rgb(48, 48, 48); 
+    text-align: center;
+}
+.app {
+    color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 791px) {
+.col a {
+    font-size: 1.3rem;
+}
+.footer_text {
+    font-size: 0.8rem;
+}
+.footer_text h3 {
+    font-size: 1.1rem;
+}
+
+
+    }
+
+    @media screen and (max-width: 767px) {
+        /* .form_bar {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            align-items: center;
+        } */
+        .form_bar button {
+            margin-top: 20px;
+        }
+    }
+
+
+
+
+
+@media screen and (max-width: 711px) {
+    .text_bar {
+        padding-top: 10px;
+        font-size: 1.3rem;
+        line-height: 20px;
+    }
+    .consult_block {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+.second_video video {
+    width: 550px;
+}
+.main_video video {
+    width: 550px; 
+}
+.logo img {
+    width: 160px;
+}
+.text_bar_main {
+    font-size: 1.8rem;
+   
+}
+.consult img {
+    max-width: 420px;
+}
+.cons_text {
+    font-size: 1.22rem;
+}
+.promo_text {
+    font-size: 1.22rem;
+}
+.social_text {
+    font-size: 1.22rem; 
+}
+}
+
+
+
+@media screen and (max-width: 551px) {
+    .second_video video {
+        width: 480px;
+    }
+    .main_video video {
+        width: 480px; 
+    }
+    .col a {
+        font-size: 1.2rem;
+        padding: 6px 30px;
+    }
+    .app_block img {
+        max-width: 140px;
+    }
+    }
+    @media screen and (max-width: 505px) {
+        .consult img {
+            max-width: 360px;
+        }
+        .second_video video {
+            width: 430px;
+        }
+        .main_video video {
+            width: 430px; 
+        }
+    }
+
+    @media screen and (max-width: 471px) {
+        .app img {
+            width: 140px;
+        }
+      .form_bar button {
+        font-size: 1.3rem;
+      }
+        input {
+            width:  320px;
+            font-size: 1.2rem;
+        }
+    
+        .text_bar {
+            font-size: 1.1rem;
+            line-height: 20px;
+        }
+        .text_bar_main {
+            font-size: 1.6rem;
+           
+        }
+        .footer_text {
+            font-size: 0.6rem;
+        }
+        .footer_text h3 {
+            font-size: 0.9rem;
+        }
+       
+        .col a {
+            font-size: 1.1rem;
+            padding: 6px 16px;
+        }
+        }
+
+
+        @media screen and (max-width: 991px) {
+            .cons_text {
+                padding-top: 18px;
+                padding-bottom: 30px;
+                text-align: center;
+            }
+            .promo_text {
+                padding-top: 10px; 
+                padding-bottom: 36px;
+                text-align: center;
+            }
+        }
+
+
+        @media screen and (max-width: 447px) {
+            .social img {
+width: 40px;
+            }
+            .second_video video {
+                width: 400px;
+            }
+            .main_video video {
+                width: 400px; 
+            }
+        }
+
+        @media screen and (max-width: 406px) {
+            .col a {
+                font-size: 0.9rem;
+                padding: 6px 12px;
+            }
+            .second_video video {
+                width: 360px;
+            }
+            .main_video video {
+                width: 360px; 
+            }
+            .consult img {
+                max-width: 320px;
+            }
+        }
+      
+
+        @media screen and (max-width: 711px) {
+           .inside img {
+            width: 50px;
+           }
+           .text_fast {
+            font-size: 1rem;
+            padding-bottom: 2px;
+           }
+        }
+ 
+       .somet1 {
+display: flex;
+flex-direction: row;
+        } 
+        .pics {
+            padding: 20px;
+        }
