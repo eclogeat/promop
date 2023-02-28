@@ -433,6 +433,8 @@ width: 40px;
         }
  
        .somet1 {
+            margin-right: 5px;
+        margin-left: 5px;
 display: flex;
 flex-direction: row;
         } 
