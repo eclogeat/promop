@@ -44,11 +44,11 @@ span {
     padding-bottom: 10px;
     color: white;
 }
-.social {
+/* .social {
     
     display: flex;
     justify-content: center;
-}
+} */
 .social img {
     max-width: 60px;
    padding-top: 40px;
