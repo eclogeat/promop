@@ -210,7 +210,7 @@ input {
     padding: 5px 20px;
 border: 2px solid #242424;
 }
-/* .form_bar button {
+.form_bar button {
    
     vertical-align: center;
     color: white;
@@ -224,7 +224,7 @@ border: 2px solid #f5c945;
 .form_bar {
     padding-bottom: 40px;
 padding-top: 30px;
-} */
+}
 
 .app_block img {
   cursor: pointer;
