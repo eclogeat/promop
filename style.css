@@ -200,6 +200,9 @@ justify-content: center;
 .second_video video {
 width: 600px;
 }
+.second_video {
+    text-align: center;
+}
 
 
 img {
