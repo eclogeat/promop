@@ -79,6 +79,10 @@ body {
     
    
 }
+.main_video {
+    display: flex; 
+    justify-content: center;
+}
 .text_bar_main {
     text-align: center;
     font-size: 2.4rem;
